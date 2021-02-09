@@ -114,6 +114,7 @@ public class Fox extends Animal
     private Location findFood()
     {
         Field field = getField();
+        //rdrfd
         List<Location> adjacent = field.adjacentLocations(getLocation());
         Iterator<Location> it = adjacent.iterator();
         while(it.hasNext()) {
